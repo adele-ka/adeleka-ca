@@ -1,0 +1,595 @@
+{
+  "types": {
+    "writing": {
+      "label": "writing",
+      "kind": "markdown",
+      "dir": "content/writing",
+      "titleField": "title",
+      "fields": [
+        {
+          "name": "title",
+          "label": "title",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "topic",
+          "label": "topic",
+          "type": "select",
+          "options": [
+            "product",
+            "design",
+            "farming",
+            "learning",
+            "fun"
+          ],
+          "optional": true,
+          "hint": "the filter it appears under. leave as (none) for a post that fits no filter, like the about-me cover story."
+        },
+        {
+          "name": "date",
+          "label": "date",
+          "type": "date"
+        },
+        {
+          "name": "readtime",
+          "label": "reading time",
+          "type": "text",
+          "auto": "readtime",
+          "hint": "worked out from the length of the post (about 220 words a minute). it updates as you type and is saved with the post."
+        },
+        {
+          "name": "dek",
+          "label": "one-line summary",
+          "type": "textarea",
+          "rows": 2
+        },
+        {
+          "name": "photos",
+          "label": "cover photos (optional)",
+          "type": "gallery",
+          "hint": "add one or more photos to use instead of the illustration. the first one is used on cards; change the order with the arrows. every photo needs a short description for screen readers."
+        },
+        {
+          "name": "tint",
+          "label": "card colour",
+          "type": "select",
+          "options": [
+            "sage",
+            "peach",
+            "pink",
+            "butter",
+            "lime",
+            "mist"
+          ]
+        },
+        {
+          "name": "art_flowers",
+          "label": "illustration (flowers background)",
+          "type": "select",
+          "options": [
+            "flower-zinnia-coral",
+            "flower-zinnia-blue",
+            "flower-zinnia-lilac",
+            "flower-zinnia-peach",
+            "flower-daisy-lilac",
+            "flower-daisy-blue",
+            "flower-daisy-peach",
+            "flower-daisy-sage",
+            "flower-daisy-pink",
+            "flower-sprig-pink",
+            "flower-sprig-blue",
+            "flower-sprig-yellow",
+            "flower-sprig-magenta"
+          ],
+          "preview": "art"
+        },
+        {
+          "name": "art_garden",
+          "label": "illustration (garden background)",
+          "type": "select",
+          "options": [
+            "garden-tomato-red",
+            "garden-tomato-yellow",
+            "garden-tomato-deep",
+            "garden-tomato-orange",
+            "garden-tomato-green",
+            "garden-corn",
+            "garden-pea",
+            "garden-pepper",
+            "garden-carrot"
+          ],
+          "preview": "art"
+        },
+        {
+          "name": "cover",
+          "label": "show as the cover story on the home page",
+          "type": "bool"
+        },
+        {
+          "name": "draft",
+          "label": "draft (hide from the site)",
+          "type": "bool"
+        },
+        {
+          "name": "body",
+          "label": "the post",
+          "type": "markdown"
+        }
+      ],
+      "template": {
+        "data": {
+          "tint": "peach",
+          "art_flowers": "flower-zinnia-coral",
+          "art_garden": "garden-tomato-red"
+        },
+        "body": "start the post here. short paragraphs read best on a screen.\n\n## a subheading\n\nthe next section of the post.\n\n> a pull quote: the one line worth remembering.\n\nfinish the thought here."
+      }
+    },
+    "projects": {
+      "label": "projects",
+      "kind": "markdown",
+      "dir": "content/projects",
+      "titleField": "title",
+      "fields": [
+        {
+          "name": "title",
+          "label": "title",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "type",
+          "label": "type (the filter it appears under)",
+          "type": "select",
+          "options": [
+            "product",
+            "design",
+            "research"
+          ]
+        },
+        {
+          "name": "hats",
+          "label": "hats",
+          "type": "text",
+          "hint": "the roles you played, for example: product manager, designer"
+        },
+        {
+          "name": "timeline",
+          "label": "timeline",
+          "type": "text"
+        },
+        {
+          "name": "tools",
+          "label": "tools",
+          "type": "text"
+        },
+        {
+          "name": "summary",
+          "label": "card summary",
+          "type": "textarea",
+          "rows": 2
+        },
+        {
+          "name": "dek",
+          "label": "intro line",
+          "type": "textarea",
+          "rows": 2
+        },
+        {
+          "name": "photos",
+          "label": "cover photos (optional)",
+          "type": "gallery",
+          "hint": "add one or more photos to use instead of the illustration. the first one is used on cards; change the order with the arrows. every photo needs a short description for screen readers."
+        },
+        {
+          "name": "tint",
+          "label": "card colour",
+          "type": "select",
+          "options": [
+            "sage",
+            "peach",
+            "pink",
+            "butter",
+            "lime",
+            "mist"
+          ]
+        },
+        {
+          "name": "sketch",
+          "label": "sketch",
+          "type": "select",
+          "options": [
+            "two-way-sync.svg",
+            "product-request.svg",
+            "training-system.svg"
+          ],
+          "preview": "img"
+        },
+        {
+          "name": "result1_num",
+          "label": "result 1: number",
+          "type": "text"
+        },
+        {
+          "name": "result1_label",
+          "label": "result 1: label",
+          "type": "text"
+        },
+        {
+          "name": "result2_num",
+          "label": "result 2: number",
+          "type": "text"
+        },
+        {
+          "name": "result2_label",
+          "label": "result 2: label",
+          "type": "text"
+        },
+        {
+          "name": "learned",
+          "label": "what i learned",
+          "type": "textarea",
+          "rows": 3
+        },
+        {
+          "name": "order",
+          "label": "order on the page",
+          "type": "number"
+        },
+        {
+          "name": "draft",
+          "label": "draft (hide from the site)",
+          "type": "bool"
+        },
+        {
+          "name": "body",
+          "label": "sections (use ## the problem, then ## what i did with a numbered list)",
+          "type": "markdown"
+        }
+      ],
+      "template": {
+        "data": {
+          "type": "product",
+          "tint": "sage",
+          "sketch": "two-way-sync.svg"
+        },
+        "body": "## the problem\n\nwhat was broken, slow, or missing, and who it hurt.\n\n## what i did\n\n1. the first thing you did\n2. the second thing\n3. the third thing"
+      }
+    },
+    "favourites": {
+      "label": "favourite lists",
+      "kind": "markdown",
+      "dir": "content/favourites",
+      "titleField": "title",
+      "fields": [
+        {
+          "name": "title",
+          "label": "list title",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "description",
+          "label": "description",
+          "type": "text"
+        },
+        {
+          "name": "tint",
+          "label": "card colour",
+          "type": "select",
+          "options": [
+            "sage",
+            "peach",
+            "pink",
+            "butter",
+            "lime",
+            "mist"
+          ]
+        },
+        {
+          "name": "order",
+          "label": "order on the page",
+          "type": "number"
+        },
+        {
+          "name": "draft",
+          "label": "draft (hide from the site)",
+          "type": "bool"
+        },
+        {
+          "name": "body",
+          "label": "items (a numbered list: 1. name — note)",
+          "type": "markdown"
+        }
+      ]
+    },
+    "photos": {
+      "label": "photos",
+      "kind": "markdown",
+      "dir": "content/photos",
+      "titleField": "caption",
+      "fields": [
+        {
+          "name": "caption",
+          "label": "caption",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "image",
+          "label": "photo (leave empty to show a coloured placeholder)",
+          "type": "image"
+        },
+        {
+          "name": "alt",
+          "label": "description for screen readers",
+          "type": "text"
+        },
+        {
+          "name": "category",
+          "label": "category",
+          "type": "select",
+          "options": [
+            "touch grass",
+            "hobbies",
+            "work",
+            "travel",
+            "cafes"
+          ]
+        },
+        {
+          "name": "date",
+          "label": "date",
+          "type": "date"
+        },
+        {
+          "name": "tint",
+          "label": "placeholder colour",
+          "type": "select",
+          "options": [
+            "sage",
+            "peach",
+            "pink",
+            "butter",
+            "lime",
+            "mist"
+          ]
+        },
+        {
+          "name": "ratio",
+          "label": "placeholder shape",
+          "type": "select",
+          "options": [
+            "1/1",
+            "4/5",
+            "3/4",
+            "4/3"
+          ]
+        },
+        {
+          "name": "art_flowers",
+          "label": "placeholder plant (flowers)",
+          "type": "select",
+          "options": [
+            "flower-zinnia-coral",
+            "flower-zinnia-blue",
+            "flower-zinnia-lilac",
+            "flower-zinnia-peach",
+            "flower-daisy-lilac",
+            "flower-daisy-blue",
+            "flower-daisy-peach",
+            "flower-daisy-sage",
+            "flower-daisy-pink",
+            "flower-sprig-pink",
+            "flower-sprig-blue",
+            "flower-sprig-yellow",
+            "flower-sprig-magenta"
+          ],
+          "preview": "art"
+        },
+        {
+          "name": "art_garden",
+          "label": "placeholder plant (garden)",
+          "type": "select",
+          "options": [
+            "garden-tomato-red",
+            "garden-tomato-yellow",
+            "garden-tomato-deep",
+            "garden-tomato-orange",
+            "garden-tomato-green",
+            "garden-corn",
+            "garden-pea",
+            "garden-pepper",
+            "garden-carrot"
+          ],
+          "preview": "art"
+        },
+        {
+          "name": "draft",
+          "label": "draft (hide from the site)",
+          "type": "bool"
+        }
+      ]
+    },
+    "site": {
+      "label": "site settings",
+      "kind": "json",
+      "file": "content/site.json",
+      "fields": [
+        {
+          "name": "heroTitle",
+          "label": "home headline",
+          "type": "text"
+        },
+        {
+          "name": "heroLede",
+          "label": "home intro",
+          "type": "textarea",
+          "rows": 3
+        },
+        {
+          "name": "marquee",
+          "label": "scrolling strip (one line each)",
+          "type": "lines"
+        },
+        {
+          "name": "aboutTitle",
+          "label": "about heading",
+          "type": "text"
+        },
+        {
+          "name": "aboutText",
+          "label": "about text",
+          "type": "textarea",
+          "rows": 5
+        },
+        {
+          "name": "contactTitle",
+          "label": "contact heading",
+          "type": "text"
+        },
+        {
+          "name": "contactText",
+          "label": "contact text",
+          "type": "textarea",
+          "rows": 2
+        },
+        {
+          "name": "email",
+          "label": "email",
+          "type": "text"
+        },
+        {
+          "name": "linkedin",
+          "label": "linkedin address",
+          "type": "text"
+        },
+        {
+          "name": "cv",
+          "label": "cv file: put the PDF in static/uploads, then write /uploads/its-name.pdf",
+          "type": "text"
+        },
+        {
+          "name": "cvLabel",
+          "label": "cv packet: big word on the front",
+          "type": "text"
+        },
+        {
+          "name": "cvBrand",
+          "label": "cv packet: small line above the big word",
+          "type": "text"
+        },
+        {
+          "name": "cvTear",
+          "label": "cv packet: words on the tear line",
+          "type": "text"
+        },
+        {
+          "name": "cvTitle",
+          "label": "cv packet: card heading (leave empty to hide the packet)",
+          "type": "text"
+        },
+        {
+          "name": "cvRows",
+          "label": "cv packet: card rows, one per line, as label: text",
+          "type": "lines"
+        },
+        {
+          "name": "cvButton",
+          "label": "cv packet: download button",
+          "type": "text"
+        },
+        {
+          "name": "footer",
+          "label": "footer text",
+          "type": "text"
+        },
+        {
+          "name": "projectsTitle",
+          "label": "projects page: heading (also the home section heading)",
+          "type": "text"
+        },
+        {
+          "name": "projectsLede",
+          "label": "projects page: intro",
+          "type": "textarea",
+          "rows": 2
+        },
+        {
+          "name": "projectsNote",
+          "label": "home page: line beside the projects heading",
+          "type": "text"
+        },
+        {
+          "name": "writingTitle",
+          "label": "writing page: heading (also the home section heading)",
+          "type": "text"
+        },
+        {
+          "name": "writingLede",
+          "label": "writing page: intro",
+          "type": "textarea",
+          "rows": 2
+        },
+        {
+          "name": "favouritesTitle",
+          "label": "favourites page: heading (also the home section heading)",
+          "type": "text"
+        },
+        {
+          "name": "favouritesLede",
+          "label": "favourites page: intro",
+          "type": "textarea",
+          "rows": 2
+        },
+        {
+          "name": "favouritesNote",
+          "label": "home page: line beside the favourites heading",
+          "type": "text"
+        },
+        {
+          "name": "snapshotsTitle",
+          "label": "snapshots page: heading (also the home section heading)",
+          "type": "text"
+        },
+        {
+          "name": "snapshotsLede",
+          "label": "snapshots page: intro",
+          "type": "textarea",
+          "rows": 2
+        },
+        {
+          "name": "soonTitle",
+          "label": "coming soon panel: heading",
+          "type": "text"
+        },
+        {
+          "name": "soonProjects",
+          "label": "coming soon panel: projects text",
+          "type": "text"
+        },
+        {
+          "name": "soonWriting",
+          "label": "coming soon panel: writing text",
+          "type": "text"
+        },
+        {
+          "name": "soonSnapshots",
+          "label": "coming soon panel: snapshots text",
+          "type": "text"
+        },
+        {
+          "name": "newsletterAction",
+          "label": "newsletter form address (leave empty to hide)",
+          "type": "text"
+        },
+        {
+          "name": "url",
+          "label": "site address (for the sitemap), for example https://adeleka.ca",
+          "type": "text"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,11 @@
+node_modules
+dist
+.DS_Store
+*.log
+
+# your working notes (decisions, lessons, plans) stay on your computer and never go to GitHub
+docs/
+
+# never publish passwords or keys
+.env
+.env.*

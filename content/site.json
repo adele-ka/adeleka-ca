@@ -1,0 +1,73 @@
+{
+  "name": "Adele Ka",
+  "tagline": "in the pursuit of being better",
+  "description": "A personal magazine by Adele Ka, a product manager and designer in Vancouver, Canada. includes projects, essays, and favourite things.",
+  "url": "",
+  "email": "hello@adeleka.ca",
+  "lang": "en",
+  "heroTitle": "in the pursuit of being better",
+  "heroLede": "i'm adele, a product manager and designer in vancouver. this site is a love letter to myself including projects, ramblings, and snapshots of the things i love.",
+  "marquee": [
+    "in the pursuit of being better",
+    "currently building: a little corner of the internet",
+    "currently learning: discrete mathematics",
+    "currently reading: project maven by katrina manson",
+    "currently training for: my next army career course"
+    
+  ],
+  "aboutTitle": "about the editor",
+  "aboutText": "i like great products and continuous learning. passionate about solving problems and living life earnestly. want to collaborate on a tech, life, or design project?",
+  "contactTitle": "let's make something good",
+  "contactText": "projects, collaborations, or just chat about a good idea over coffee. say hello.",
+  "footer": "© 2026 Adele Ka. in the pursuit of being better.",
+  "linkedin": "www.linkedin.com/in/adeleka",
+  "cv": "/uploads/adele-ka-cv.pdf",
+  "newsletterAction": "",
+  "filters": {
+    "projects": [
+      "product",
+      "design",
+      "research"
+    ],
+    "writing": [
+      "product",
+      "design",
+      "military",
+      "farming",
+      "learning",
+      "fun"
+    ],
+    "snapshots": [
+      "touching grass",
+      "hobbies",
+      "work",
+      "travel",
+      "cafes"
+    ]
+  },
+  "cvLabel": "CV",
+  "cvBrand": "adele seed co.",
+  "cvTear": "tear here",
+  "cvTitle": "adele ka, open to new projects",
+  "cvRows": [
+    "variety: product manager × ui/ux designer",
+    "sow in: start up teams that obsess over customers and solving problems",
+    "environment: hybrid preferred or in office",
+    "days to bloom: 2 weeks’ notice"
+  ],
+  "cvButton": "download CV",
+  "projectsTitle": "projects",
+  "projectsLede": "things i've owned, designed, and shipped; starting with a problem and ending with something i learned.",
+  "projectsNote": "a few things i've owned, designed, and shipped.",
+  "writingTitle": "ponderings and hot takes",
+  "writingLede": "essays, opinions, and notes to self about building things, living life, and getting a little better.",
+  "favouritesTitle": "favourite things",
+  "favouritesLede": "i love lists.",
+  "favouritesNote": "lists on lists on lists.",
+  "snapshotsTitle": "snapshots",
+  "snapshotsLede": "a photo dump from the outdoors, the desk, and capturing moments everywhere in between.",
+  "soonTitle": "coming soon",
+  "soonProjects": "projects are being written up. check back soon.",
+  "soonWriting": "new writing is on its way. check back soon.",
+  "soonSnapshots": "photos from the trail, the desk, and the garden are on their way."
+}

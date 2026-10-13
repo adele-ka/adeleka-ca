@@ -1,0 +1,16 @@
+{
+  "name": "adeleka-ca",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Adele Ka's personal magazine: a small static site generator, a content folder, and a local CMS.",
+  "scripts": {
+    "build": "node build.js",
+    "dev": "node dev.js",
+    "cms": "node cms/server.js"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "js-yaml": "^4.1.0",
+    "marked": "^16.0.0"
+  }
+}

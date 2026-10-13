@@ -1,0 +1,73 @@
+# Config for Pages CMS (https://app.pagescms.org): a free online editor that edits the files in this repository.
+# After signing in with GitHub and opening this repository, it reads this file and shows forms for each type of content.
+media:
+  input: static/uploads
+  output: /uploads
+
+content:
+  - name: writing
+    label: Writing
+    type: collection
+    path: content/writing
+    fields:
+      - { name: title, label: Title, type: string }
+      - { name: topic, label: Topic, type: select, options: { values: [product, design, farming, learning, fun] } }
+      - { name: date, label: Date, type: date }
+      - { name: readtime, label: Reading time (leave empty to work it out from the length), type: string }
+      - { name: dek, label: One-line summary, type: text }
+      - { name: photos, label: "Cover photos (optional, instead of the illustration; the first is used on cards)", type: object, list: true, fields: [ { name: src, label: Photo, type: image }, { name: alt, label: Description for screen readers, type: string } ] }
+      - { name: tint, label: Card colour, type: select, options: { values: [sage, peach, pink, butter, lime, mist] } }
+      - { name: art_flowers, label: Illustration (flowers background), type: select, options: { values: [flower-zinnia-coral, flower-zinnia-blue, flower-zinnia-lilac, flower-zinnia-peach, flower-daisy-lilac, flower-daisy-blue, flower-daisy-peach, flower-daisy-sage, flower-daisy-pink, flower-sprig-pink, flower-sprig-blue, flower-sprig-yellow, flower-sprig-magenta] } }
+      - { name: art_garden, label: Illustration (garden background), type: select, options: { values: [garden-tomato-red, garden-tomato-yellow, garden-tomato-deep, garden-tomato-orange, garden-tomato-green, garden-corn, garden-pea, garden-pepper, garden-carrot] } }
+      - { name: cover, label: Show as the cover story on the home page, type: boolean }
+      - { name: draft, label: Draft (hide from the site), type: boolean }
+      - { name: body, label: The post, type: rich-text }
+
+  - name: projects
+    label: Projects
+    type: collection
+    path: content/projects
+    fields:
+      - { name: title, label: Title, type: string }
+      - { name: type, label: Type (the filter it appears under), type: select, options: { values: [product, design, research] } }
+      - { name: hats, label: "Hats (the roles you played, for example: product manager, designer)", type: string }
+      - { name: timeline, label: Timeline, type: string }
+      - { name: tools, label: Tools, type: string }
+      - { name: summary, label: Card summary, type: text }
+      - { name: dek, label: Intro line, type: text }
+      - { name: photos, label: "Cover photos (optional, instead of the illustration; the first is used on cards)", type: object, list: true, fields: [ { name: src, label: Photo, type: image }, { name: alt, label: Description for screen readers, type: string } ] }
+      - { name: tint, label: Card colour, type: select, options: { values: [sage, peach, pink, butter, lime, mist] } }
+      - { name: sketch, label: Sketch, type: select, options: { values: [two-way-sync.svg, product-request.svg, training-system.svg] } }
+      - { name: result1_num, label: "Result 1: number", type: string }
+      - { name: result1_label, label: "Result 1: label", type: string }
+      - { name: result2_num, label: "Result 2: number", type: string }
+      - { name: result2_label, label: "Result 2: label", type: string }
+      - { name: learned, label: What I learned, type: text }
+      - { name: order, label: Order on the page, type: number }
+      - { name: draft, label: Draft (hide from the site), type: boolean }
+      - { name: body, label: "Sections: ## the problem, then ## what i did with a numbered list", type: rich-text }
+
+  - name: favourites
+    label: Favourite lists
+    type: collection
+    path: content/favourites
+    fields:
+      - { name: title, label: List title, type: string }
+      - { name: description, label: Description, type: string }
+      - { name: tint, label: Card colour, type: select, options: { values: [sage, peach, pink, butter, lime, mist] } }
+      - { name: order, label: Order on the page, type: number }
+      - { name: draft, label: Draft (hide from the site), type: boolean }
+      - { name: body, label: "Items (a numbered list: 1. name — note)", type: rich-text }
+
+  - name: photos
+    label: Photos
+    type: collection
+    path: content/photos
+    fields:
+      - { name: caption, label: Caption, type: string }
+      - { name: image, label: Photo (leave empty for a coloured placeholder), type: image }
+      - { name: alt, label: Description for screen readers, type: string }
+      - { name: category, label: Category, type: select, options: { values: [touch grass, hobbies, work, travel, cafes] } }
+      - { name: date, label: Date, type: date }
+      - { name: tint, label: Placeholder colour, type: select, options: { values: [sage, peach, pink, butter, lime, mist] } }
+      - { name: draft, label: Draft (hide from the site), type: boolean }
