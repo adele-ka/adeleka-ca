@@ -27,7 +27,7 @@ starting in the early 2000s, my initial curiousity for the internet led me to st
 
 to my best recollection, 2016 was my next coherent and earnest attempt with [happy addy](https://happyaddy.weebly.com/) which was intended to be the same style of blog as this but is much less refined. i didn't really continue with it because of career and life changes at the time.
 
-the old adeleka.ca website was built after getting my ui/ux design certificate as a way to showcase what i've learened and implementing some of those design principles. it was mainly a method to find a job, which i didn't end up getting but learned about my personal design values throughout it's development. (i'll update the link once i have the domain switched up.)
+the old adeleka.ca website was built after getting my ui/ux design certificate as a way to showcase what i've learned and implement some of those design principles. it was mainly a method to find a job, which i didn't end up getting but learned about my personal design values throughout it's development. (i'll update the link once i have the domain switched up.)
 
 and now we're here, to whatever version this will be remembered as in the long run. i welcome you to my virtual nesting ground and to continue working on this nest for years to come together.
 
