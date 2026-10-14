@@ -1,6 +1,6 @@
 // Builds the website: reads content/ and static/, writes finished pages into dist/.
 //   node build.js            -> normal build
-//   BASE_PATH=/adeleka-ca node build.js   -> when the site lives at user.github.io/adeleka-ca/ (GitHub sets this for you)
+//   BASE_PATH=/adeleka-ca node build.js   -> when the site lives at user.github.io/adeleka-ca/
 const fs = require('fs');
 const path = require('path');
 const { parse } = require('./lib/frontmatter');
