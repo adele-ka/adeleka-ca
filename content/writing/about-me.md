@@ -17,7 +17,7 @@ cover: true
 welcome to my little slice of the internet that serves 3 purposes:
 1. to share my passions and my favourite things with the hope that you might find something in common or something new to experience;
 2. collect precious memories, random thoughts, and ramblings in a place that will hopefully live on in memoriam (except when the world wide web and the wide open world ends); and, 
-3. to document projects and work that i'm proud of for ~professional development~ reasons.
+3. to document projects and work that i'm proud of for \~professional development\~ reasons.
 
 ## version X
 
