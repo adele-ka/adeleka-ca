@@ -38,7 +38,7 @@ art_garden: garden-tomato-orange
 
 bom dia baby!
 
-i alluded to my vacation in my last post ([year 30](https://adeleka.ca/30)) but i am at the tail-end of my travels for this wondrous week in portugal. i am currently lounging around in terminal 3 at london's busy heathrow airport with more than 4 hours until my flight. this seems as good as any time to reflect and write down a list of everything i got to do. photos have been great reminders for the dates and the geolocation (thank you gps/apple) but as i've grown older, i wish i wrote about the feelings i had in the various moments. looking back in hindsight seems to skew what i experienced because i only remember them as a fleeting memory. i already have a short memory so i have to get this in fast before i forget.
+i alluded to my vacation in my last post ([year 30](https://adeleka.ca/writing/30)) but i am at the tail-end of my travels for this wondrous week in portugal. i am currently lounging around in terminal 3 at london's busy heathrow airport with more than 4 hours until my flight. this seems as good as any time to reflect and write down a list of everything i got to do. photos have been great reminders for the dates and the geolocation (thank you gps/apple) but as i've grown older, i wish i wrote about the feelings i had in the various moments. looking back in hindsight seems to skew what i experienced because i only remember them as a fleeting memory. i already have a short memory so i have to get this in fast before i forget.
 
 i'll be naming most locations in portuguese so if you're interested, do some research or ask me directly.
 
