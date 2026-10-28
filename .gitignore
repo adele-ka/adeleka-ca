@@ -5,7 +5,7 @@ dist
 
 # your working notes (decisions, lessons, plans) stay on your computer and never go to GitHub
 docs/
-
+cms/
 # never publish passwords or keys
 .env
 .env.*
