@@ -1,11 +1,11 @@
 ---
-title: bc tak federation
+title: bc tak logo
 type: design
 hats: designer
 timeline: "2025"
 tools: canva, procreate
-summary: one logo to bring the caf, the province of bc, and the rcmp together under a single flag for tak federation.
-dek: a logo with a bird’s-eye view over the province it protects.
+summary: a logo representing the bird's eye view of the province it protects.
+dek: one logo to bring the caf, the rcmp, and the province of bc together under a single flag for tak federation.
 photos:
   - src: /uploads/bctak.webp
     alt: final logo
@@ -22,12 +22,14 @@ sketch: training-system.svg
 result1_num: 3 -> 1
 result1_label: design variations refined into one final logo
 result2_num: "3"
-result2_label: "organizations united under one flag: caf, rcmp, province of bc"
+result2_label: "organizations united under one flag: the caf, the rcmp, and the province of bc"
 learned: borrowing a proven shape from the cotak logo gave me a general starting point and the bc logo is tough to work with as it is not as identifiable as the flag.
 ---
 ## the problem
 
-the team awareness kit (tak) is a common operating picture tool that gives users shared situational awareness, navigation, and data sharing in one application. for the inaugural test of tak federation in british columbia, the canadian armed forces, the province, and the rcmp connected through a shared tak server, so they could validate the capability to respond together during a domestic emergencies like wildfires, floods, or major accidents.
+the team awareness kit (tak) is a common operating picture tool that gives users shared situational awareness, navigation, and data sharing in one application. 
+
+for the inaugural test of tak federation in british columbia, the canadian armed forces, the province, and the rcmp connected through a shared tak server, so they could validate the capability to respond together during a domestic emergencies like wildfires, floods, or major accidents. the client wanted a logo to celebrate this test and bring the organizations together.
 
 ## what i did
 
