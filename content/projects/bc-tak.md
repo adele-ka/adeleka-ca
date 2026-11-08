@@ -29,7 +29,7 @@ learned: borrowing a proven shape from the cotak logo gave me a general starting
 
 the team awareness kit (tak) is a common operating picture tool that gives users shared situational awareness, navigation, and data sharing in one application. 
 
-for the inaugural test of tak federation in british columbia, the canadian armed forces, the province, and the rcmp connected through a shared tak server, so they could validate the capability to respond together during a domestic emergencies like wildfires, floods, or major accidents. the client wanted a logo to celebrate this test and bring the organizations together.
+for the inaugural test of tak federation in british columbia, the canadian armed forces, the province, and the rcmp connected through a shared tak server so they could validate the capability to respond together during a domestic emergencies like wildfires, floods, or major accidents. the client wanted a logo to celebrate this test and bring the organizations together.
 
 ## what i did
 
