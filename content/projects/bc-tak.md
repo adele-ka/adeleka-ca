@@ -1,7 +1,7 @@
 ---
 title: bc tak logo
 type: design
-hats: designer
+hats: logo design, visual identity
 timeline: "2025"
 tools: canva, procreate
 summary: a logo representing the bird's eye view of the province it protects.
